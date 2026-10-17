@@ -32,7 +32,7 @@ Follow the target venue's style guide first. Without one, use APA 7 for general 
 | No slash for "and/or" | X, Y, or both | X and/or Y |
 | Hyphenate a compound modifier only before the noun | a two-stage detector; the detector has two stages | a two stage detector |
 | Do not italicize technical terms; italicize only a key term at first use with its definition | point proposal, test set | *point proposal*, *test set* (Indonesian convention) |
-| Verb tense by purpose | Past for methods and results ("The model achieved"); present for implications and conclusions ("The results indicate") | shifting tense within a paragraph |
+| Verb tense by purpose | Past for methods and results ("The model achieved"); present for implications and conclusions ("The results indicate"); in a proposal, future or present for planned work ("The models will be compared") | shifting tense within a paragraph; past tense for work not yet done |
 | One spelling system, American for IEEE | behavior, center, analyze | behaviour, centre in an IEEE paper |
 
 ## Workflow
@@ -47,3 +47,4 @@ Follow the target venue's style guide first. Without one, use APA 7 for general 
 - "Faster R-CNN, a two-stage detector trained on the same data, serves as the baseline" split the subject from its verb.
 - "Five models were tested, including a random forest model, which achieved …" left "which" ambiguous.
 - When told to define every abbreviation, an agent invented an expansion for an abbreviation the source never expanded.
+- Translating "Pengujian ini dilakukan dengan mengadaptasi APGCC" as "The test adapts APGCC" kept an Indonesian subject that cannot perform the English verb. Rebuild the sentence around a real agent: "The study does this by adapting APGCC".
